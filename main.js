@@ -48,7 +48,7 @@
       const newLiElement = document.createElement('li');
       newLiElement.innerHTML = `<strong>${key}</strong> : ${quiz[key]}`;
       newUlElement.appendChild(newLiElement);
-    })
+    });
 
     return newUlElement;
 
